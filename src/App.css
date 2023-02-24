@@ -1,0 +1,403 @@
+@font-face {
+  font-family: "Product Sans Regular";
+  src: url(./fonts/Product\ Sans\ Regular.ttf );
+}
+
+body,
+html {
+  height: 100%;
+}
+@font-face {
+  font-family: "Product Sans Bold";
+  src: url(./fonts/Product\ Sans\ Bold.ttf);
+}
+
+@font-face {
+  font-family: "Product Sans Italic";
+  src: url(./fonts/Product\ Sans\ Italic.ttf);
+}
+
+@font-face {
+  font-family: "Product Sans Bold Italic";
+  src: url(./fonts/Product\ Sans\ Bold\ Italic.ttf);
+}
+
+@font-face {
+  font-family: "funky";
+  src: url(./fonts/funky.otf);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+#divison
+{
+    border:solid;
+    border:7px solid black;
+    border-width:7px;
+    margin:20px;
+    margin-left:20rem;
+    margin-right:20rem;
+}
+#signupp1
+{
+    border:solid;
+    border:7px solid black;
+    border-width:7px;
+    margin:20px;
+    margin-left:20rem;
+    margin-right:20rem;
+    font-size:1.2rem;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Product Sans Regular;
+}
+#navmain {
+  height: 5vw;
+  /* border-bottom: 2px solid rgb(222, 235, 44); */
+}
+#notesmain {
+  background-color: antiquewhite;
+  margin-top: 0px;
+}
+
+#home1 {
+  margin-top: 0px;
+  background-color: antiquewhite;
+}
+
+#navh1 {
+  font-family: funky;
+  margin-top: 0px;
+  font-size: 5vh;
+}
+#signup
+{
+  padding-top: 2vw;
+  margin-left: 10rem;
+  /* margin-right: 18vw; */ 
+  font-size: 3vw;
+}
+#navl1 {
+  background-color: #fca650;
+  color: black;
+  font-weight: bold;
+  border-radius: 18px;
+  border: 2px solid black
+}
+
+#navl1:hover {
+  background-color: #ffc387;
+}
+
+#navl2 {
+  font-weight: bold;
+}
+
+#landingp1 {
+  text-align: center;
+  font-size: 150px;
+  font-family: funky;
+}
+
+#landingp2 {
+  text-align: center;
+  font-family: funky;
+  font-size: 70px;
+}
+
+#landingbg {
+  /* width: 100vw; */
+  background-color: antiquewhite;
+}
+
+#navmain {
+  background-color: antiquewhite;
+}
+
+#cont {
+  background-color: antiquewhite;
+  height: 100vh;
+  /*margin-top: -20px;*/
+  padding-top: 20px;
+  border-width: 2rem;
+  border-color:black;
+  /*margin:5rem;*/
+}
+
+#loginl1 {
+  /* text-align: center; */
+
+  /* margin-top: 20vw; */
+  margin-left: 20vw;
+  margin-right: 2vw;
+  /* position: absolute; */
+  /* top: 0;
+bottom: 0; */
+  height: 100%;
+  background-color: antiquewhite;
+}
+#loginlp1 {
+  padding-top: 2vw;
+  margin-left: 10rem;
+  /* margin-right: 18vw; */ 
+  font-size: 3vw;
+}
+
+#loginlp2 {
+  margin-left: 18vw;
+  margin-right: 20vw;
+  font-size: 6vw;
+  font-family: funky;
+}
+
+#loginbtn1 {
+  background-color: #fca650;
+  color: black;
+  font-weight: bold;
+  border-radius: 18px;
+  border: 2px solid black;
+  margin-top: 1vh;
+  margin-bottom:3rem;
+}
+
+#loginbtn1:hover {
+  background-color: #ffc387;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+}
+
+#signupp1 {
+  padding-top: 2vw;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  /* margin-bottom: 5vw; */
+  font-size: 1.4vw;
+}
+
+#signupf1 {
+  margin-left: 20vw;
+  margin-right: 20vw;
+  /* position: absolute; */
+  /* top: 0;
+bottom: 0; */
+  height: 100%;
+  background-color: antiquewhite;
+}
+
+#nameHelp {
+  margin-bottom: 1.5vw;
+}
+
+#name {
+  border: 2px solid black;
+  border-radius: 18px;
+}
+
+#title {
+  border: 2px solid black;
+  border-radius: 18px;
+}
+
+#description {
+  border: 2px solid black;
+  border-radius: 18px;
+}
+
+#tag {
+  border: 2px solid black;
+  border-radius: 18px;
+  margin-bottom: 5vw;
+}
+
+#email {
+  border: 2px solid black;
+  border-radius: 18px;
+  width:94%;
+  margin-left:-7rem;
+}
+ #email_label
+{
+  margin-left:-5rem;
+} 
+#Name_label
+{
+  margin-left:3rem;
+}
+#name {
+  border: 2px solid black;
+  border-radius: 18px;
+  width:94%;
+  margin-left:-1rem;
+}
+#full_name_label
+{
+  margin-left:-6rem;
+}
+#email_label
+{
+  margin-left:3rem;
+}
+#email
+{
+  border: 2px solid black;
+  border-radius: 18px;
+  width:94%;
+  margin-left:-1rem;
+}
+#signuppass
+{
+  margin-left:2rem;
+}
+#mail
+{
+  border: 2px solid black;
+  border-radius: 18px;
+  width:94%;
+  margin-left:-5rem;
+}
+ #emailHelp
+{
+  margin-left:-6rem;
+} 
+#password {
+  border: 2px solid black;
+  border-radius: 18px;
+  width:94%;
+  margin-left:-1rem;
+}
+#password_label
+{
+  margin-left:3rem;
+}
+#passwordHelp
+{
+  margin-left:-6rem;
+}
+#pass_help
+{
+  margin-left:-6rem;
+}
+#cpassword {
+  border: 2px solid black;
+  border-radius: 18px;
+  width:94%;
+  margin-left:-1rem;
+}
+#example
+{
+  margin-left:2rem;
+}
+#signupbtn1 {
+  background-color: #fca650;
+  color: black;
+  font-weight: bold;
+  border-radius: 18px;
+  border: 2px solid black;
+  margin-top: 1vh;
+  margin-bottom:3rem;
+  margin-left:4rem;
+}
+
+#signupbtn1:hover {
+  background-color: #ffc387;
+}
+
+#addnotebtn1 {
+  background-color: #fca650;
+  color: black;
+  font-weight: bold;
+  border-radius: 18px;
+  border: 2px solid black;
+  margin-bottom: 5vw;
+  /* margin-top:5vh;  */
+}
+
+#addnotebtn1:hover {
+  background-color: #ffc387;
+}
+
+#addnotemain {
+  width: 50%;
+}
+
+#home1 {
+  background-color: antiquewhite;
+}
+
+#noteitemmain {
+  background-color: rgb(255, 222, 178);
+  border-radius: 18px;
+  border: 2px solid black;
+}
+
+#addnotep1 {
+  font-weight: bold;
+}
+
+#notesmodal {
+  background-color: antiquewhite;
+}
+
+#exampleModalLabel {
+  font-weight: bold;
+}
+
+#etitle {
+  border: 2px solid black;
+  border-radius: 18px;
+}
+
+#edescription {
+  border: 2px solid black;
+  border-radius: 18px;
+}
+
+#etag {
+  border: 2px solid black;
+  border-radius: 18px;
+}
+
+#notesbtn {
+  background-color: #fca650;
+  color: black;
+  font-weight: bold;
+  border-radius: 18px;
+  /* position:fixed; */
+  border: 2px solid black;
+  margin-bottom: 5vw;
+}
+
+#notesbtn:hover {
+  background-color: #ffc387;
+}
+
+#notetag {
+  border: 1px solid black;
+  border-radius: 18px;
+  background-color: rgb(255, 194, 114);
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#aboutmain {
+  font-size: 20px;
+  text-align: center;
+}
+
+#aboutlink {
+  text-decoration: none;
+  color: black;
+}
+
